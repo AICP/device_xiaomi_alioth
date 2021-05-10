@@ -36,7 +36,12 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay 
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-aicp
+    
+# PartsBin
+PRODUCT_PACKAGES += \
+    PartsBin
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
