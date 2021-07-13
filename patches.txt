@@ -1,0 +1,2 @@
+# DT2W fix
+313449/2 https://review.lineageos.org hardware/qcom-caf/sm8250/display
