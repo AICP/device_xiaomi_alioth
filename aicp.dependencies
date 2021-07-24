@@ -1,0 +1,6 @@
+[
+  {
+    "repository":  "AICP/device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common"
+  }
+]
