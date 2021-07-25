@@ -14,6 +14,15 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Dolby atmos package -->
+    <string name="dolby_atmos_packagename">com.dolby.daxservice</string>
+
+    <!-- Sound tuner package -->
+    <string name="sound_tuner_packagename">com.motorola.dolby.dolbyui</string>
+
+    <!-- Dolby atmos classname -->
+    <string name="dolby_atmos_classname">com.motorola.dolby.dolbyui.MotoMainActivity</string>
+    
     <!-- Whether device supports switching the display refreshrate -->
     <bool name="config_device_supports_switch_refreshrate">true</bool>
     
