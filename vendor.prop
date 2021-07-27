@@ -38,6 +38,12 @@ ro.hardware.fp.vendor=fpc
 ro.hardware.keystore_desede=true
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Refresh Rate
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=80
+ro.surface_flinger.set_touch_timer_ms=200
+vendor.display.idle_time=1100
+
 # SoundTrigger
 ro.vendor.audio.soundtrigger.appdefine.cnn.level=35
 ro.vendor.audio.soundtrigger.appdefine.gmm.level=55
