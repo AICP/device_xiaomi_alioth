@@ -9,7 +9,7 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
+#define FINGERPRINT "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys"
 
 static const variant_info_t aliothcn_info = {
     .hwc_value = "CN",
