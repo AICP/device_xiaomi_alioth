@@ -9,7 +9,7 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys"
+#define FINGERPRINT "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys"
 
 static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
