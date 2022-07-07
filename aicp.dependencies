@@ -5,13 +5,13 @@
     "branch": "lineage-19.1"
   },
   {
-    "repository": "aicp-alioth/device_xiaomi_sm8250-common",
-    "target_path": "device/xiaomi/sm8250-common",
+    "repository": "AICP/kernel_xiaomi_alioth",
+    "target_path": "kernel/xiaomi/alioth",
     "branch": "s12.1"
   },
   {
-    "repository": "raystef66/InfiniR_kernel_alioth",
-    "target_path": "kernel/xiaomi/alioth",
-    "branch": "12.1-alioth"
+    "repository": "AICP/device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common",
+    "branch": "s12.1"
   }
 ]
