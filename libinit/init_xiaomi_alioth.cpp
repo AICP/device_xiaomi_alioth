@@ -9,21 +9,6 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys"
-
-static const variant_info_t aliothcn_info = {
-    .hwc_value = "CN",
-    .sku_value = "",
-
-    .brand = "Redmi",
-    .device = "alioth",
-    .marketname = "K40",
-    .model = "M2012K11AC",
-    .build_fingerprint = FINGERPRINT,
-
-    .nfc = true,
-};
-
 static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
     .sku_value = "",
@@ -32,12 +17,12 @@ static const variant_info_t aliothin_info = {
     .device = "aliothin",
     .marketname = "Mi 11X",
     .model = "M2012K11AI",
-    .build_fingerprint = FINGERPRINT,
+    .build_fingerprint = "Mi/aliothin/aliothin:12/RKQ1.200826.002/V13.0.3.0.SKHMIXM:user/release-keys",
 
     .nfc = false,
 };
 
-static const variant_info_t alioth_info = {
+static const variant_info_t alioth_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "",
 
@@ -45,14 +30,27 @@ static const variant_info_t alioth_info = {
     .device = "alioth",
     .marketname = "POCO F3",
     .model = "M2012K11AG",
-    .build_fingerprint = FINGERPRINT,
+    .build_fingerprint = "POCO/alioth_global/alioth:12/RKQ1.200826.002/V13.0.3.0.SKHMIXM:user/release-keys",
+
+    .nfc = true,
+};
+
+static const variant_info_t alioth_info = {
+    .hwc_value = "",
+    .sku_value = "",
+
+    .brand = "Redmi",
+    .device = "alioth",
+    .marketname = "K40",
+    .model = "M2012K11AC",
+    .build_fingerprint = "Redmi/alioth_global/alioth:12/RKQ1.200826.002/V13.0.3.0.SKHMIXM:user/release-keys",
 
     .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
-    aliothcn_info,
     aliothin_info,
+    alioth_global_info,
     alioth_info,
 };
 
