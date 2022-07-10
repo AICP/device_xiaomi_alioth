@@ -25,4 +25,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="alioth_global-user 11 RKQ1.200826.002 V13.0.2.0.SKHMIXM release-keys"
 
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:12/SQ3A.220705.003.A1/8672226:user/release-keys
+
 BUILD_FINGERPRINT := POCO/alioth_global/alioth:12/RKQ1.200826.002/V13.0.2.0.SKHMIXM:user/release-keys
